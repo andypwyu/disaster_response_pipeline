@@ -96,11 +96,10 @@ Credit to [Figure Eight](https://www.figure-eight.com/) for the message data.
 ## Result
 
 1. Main page, include message input box and two overview charts for whole data set.
+![Main Page](screenshots/main_page.png)
+![Message Genres Distribution](screenshots/message_genres.png)
+![Message Categories Distribution](screenshots/message_categories.png)
 
-![Main Page](screenshots/main page.png)
-![Message Genres Distribution](screenshots/message genres.png)
-![Message Categories Distribution](screenshots/message categories.png)
 
 2. Input the message text and click **Classify Message**, we see the categories the message belongs to highlighted in green.
-
-![Sample Result](screenshots/sample result.png)
+![Sample Result](screenshots/sample_result.png)
