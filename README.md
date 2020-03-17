@@ -6,7 +6,7 @@ Build a Natural Language Processing (NLP) model that classifies messages during 
 
 
 ## Table of Contents
-1. [File Description](#file description)
+1. [File Description](#description)
 2. [Instructions](#instruction)
 	1. [Dependencies](#dependencies)
 	2. [Executing Program](#execution)
@@ -16,6 +16,7 @@ Build a Natural Language Processing (NLP) model that classifies messages during 
 
 
 ## File Descriptions
+<a name="description"></a>
 ```
 .
 ├── README.md
@@ -53,7 +54,7 @@ Build a Natural Language Processing (NLP) model that classifies messages during 
 
 3. Flask Web App is the web application to classify messages into respective categories. The web app also displays visualizations of the data.
 
-
+<a name="instruction"></a>
 ## Instructions
 
 <a name="dependencies"></a>
@@ -69,10 +70,10 @@ Build a Natural Language Processing (NLP) model that classifies messages during 
 ### Executing Program:
 1. Execute the following commands in the project's directory to set up the database, train model and save the model.
 
-    - Run ETL pipeline to clean data and store the processed data in the database
+    - Run ETL pipeline to clean data and store the processed data in the database.
           `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/ DisasterResponse.db`
 
-    - Run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file
+    - Run the ML pipeline that loads data from DB, trains classifier and saves the classifier as a pickle file.
           `python models/train_classifier.py data/DisasterResponse.db models/disaster_response_prediction.pkl`
 
     - Run the following command in the app's directory to run your web app.
@@ -96,7 +97,7 @@ Credit to [Figure Eight](https://www.figure-eight.com/) for the message data.
 
 1. Main page, include message input box and two overview charts for whole data set.
 
-![Main Page](screenshots/main_page.png)
+![Main Page](screenshots/main page.png)
 ![Message Genres Distribution](screenshots/message genres.png)
 ![Message Categories Distribution](screenshots/message categories.png)
 
