@@ -95,7 +95,7 @@ Credit to [Figure Eight](https://www.figure-eight.com/) for the message data.
 <a name="result"></a>
 ## Result
 
-1. Main page, include message input box and two overview charts for whole data set.
+1. Main page, including message input box and two overview charts for whole data set.
 ![Main Page](screenshots/main_page.png)
 ![Message Genres Distribution](screenshots/message_genres.png)
 ![Message Categories Distribution](screenshots/message_categories.png)
